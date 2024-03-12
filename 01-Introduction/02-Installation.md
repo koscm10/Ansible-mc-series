@@ -11,6 +11,7 @@ have python2 or python3 installed on them.
     - Using compile file
   
     https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+
   We install ansible as ansible user so the user who installs the software is the user ansible will expect in the remote host because you always ssh through a defualt user. So because we installed ansible with ansible user it will be expecting to connect with the ansible user in remote host. If you installed ansible with ec2 user, ansible will be looking to connect with ec2 user in remote host
 
 **Installing Ansible on Ubuntu**

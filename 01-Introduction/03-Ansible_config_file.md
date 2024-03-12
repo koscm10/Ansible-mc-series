@@ -1,6 +1,8 @@
 **Ansible Directory Structure**
 
 - The default ansible home directory is **/etc/ansible**
+   - IQ what do you expect to see if you cd into /etc/ansible
+   - A: Anisble.cfg (the ansible config file) Hosts file(where you put the ip adresses of the nodes/servers that you want to manage/configure w/ ansible) Roles file (modules/playbooks you can custom create and call them as needed)
 - This directory will consist of:
   - a) ansible.cfg
   - b) hosts
@@ -16,7 +18,7 @@ and for this there is a priority for this files.
 
 **Locations with priority(starting from top to bottom):** 
 - ANSIBLE_CONFIG environment variable  
-- ./ansible.cfg from the current directory 
+- ./ansible.cfg from the current directory (you can create an ansible.cfg file in your pwd)
 - ~/.ansible.cfg file present in home directory 
 - /etc/ansible/ansible.cfg default ansible.cfg file.
 

@@ -91,6 +91,7 @@ group level variables are if you have common variables for your group
 ## **b) Password-less Authentication (Using SSH_Keys)** 
 
 have to generate a key when youre in the home of ansible(the default user) 
+once you have generated key have to send the public key to the remote users
 
 - Generate ssh-keys using ssh-keygen command from ansible user in the control machine.
 

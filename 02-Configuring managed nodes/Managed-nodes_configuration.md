@@ -42,6 +42,7 @@ all means that its just going to ping all servers in the host file
 - Test connectivity by providing a -k option to be prompted to enter the SSH password.
 
       $ ansible all -m ping -k
+  "-k" prompts you to enter an ssh password
 
 - By default, Ansible tries to connect to the nodes as a remote user with the same name as your current system user, using its corresponding SSH keypair.
 

@@ -18,7 +18,8 @@
 - Test the connectivity by running:
 
       $ ansible all -m ping
-
+"-m" means you're specifying a module 
+ping module just tests connectivity 
 ## **a) Password Authentication**
 
 - Create same user(ansible) across all servers and provide password for all users.

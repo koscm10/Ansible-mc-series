@@ -4,6 +4,7 @@
 
 on your vs code download remote development and remote- SSH
 then open the ssh configuration file in vscode then go to your users/ssh/config file then add your host can look like 
+
 #Ansible host 
 
 Host (name of host) 

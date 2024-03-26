@@ -84,6 +84,7 @@ Ansible does not recreate something/task that it has already created this is cal
     ansible_ssh_user=sammy
     ansible_ssh_pass=abc123
 ```
+group level variables are if you have common variables for your group
 - Host variables have the highest priorities. 
 - If variables are defined at a host level, then those variables will have precedence over variables that are defined at a group level.
 

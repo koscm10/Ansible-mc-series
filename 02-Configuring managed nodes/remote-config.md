@@ -2,12 +2,20 @@
 1. Configure remote ssh on vscode with user as ubuntu
 2. Log into the remote server as ubuntu and switch user to ansible
 
+on your vs code download remote development and remote- SSH
+then open the ssh configuration file in vscode then go to your users/ssh/config file then add your host can look like 
+#Ansible host 
+Host (name of host) 
+     HostName (IP of host) 
+     User (username of host) 
+     IdentityFIle (the key of the host ec2 instance) 
+
         $ sudo su - ansible
-3. Create .ssh directory in the home of ansible
+4. Create .ssh directory in the home of ansible
    
         $ sudo mkdir .ssh
         $ sudo chown -R ansible:ansible .ssh
-4. Copy the authorized keys from the home of ubuntu to the home of ansible
+5. Copy the authorized keys from the home of ubuntu to the home of ansible
   - cd into the .ssh directory and run the command below.
 
         $ sudo cp /home/ubuntu/.ssh/authorized_keys .

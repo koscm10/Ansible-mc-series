@@ -7,8 +7,7 @@ then open the ssh configuration file in vscode then go to your users/ssh/config 
 
 #Ansible host 
 
-Host (name of host) 
-     
+Host (name of host)    
      HostName (IP of host) 
      
      User (username of host) 

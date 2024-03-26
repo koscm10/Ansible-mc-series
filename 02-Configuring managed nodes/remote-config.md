@@ -15,6 +15,7 @@ Host (name of host)
      
      IdentityFIle (the key of the host ec2 instance) 
 
+        
         $ sudo su - ansible
 4. Create .ssh directory in the home of ansible
    

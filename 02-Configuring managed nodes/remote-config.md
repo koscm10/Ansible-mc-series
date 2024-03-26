@@ -8,7 +8,8 @@ then open the ssh configuration file in vscode then go to your users/ssh/config 
 
 -#Ansible host 
 -Host (name of host)    
--HostName (IP of host) 
+-HostName (IP of ec2 instance) 
+ 
  -User (username of host) 
 - IdentityFile (the key of the host ec2 instance) 
 

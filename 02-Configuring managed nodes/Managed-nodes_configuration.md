@@ -73,7 +73,7 @@ all means that its just going to ping all servers in the host file
 - Create a file on the managed nodes to see which user its working with. 
 
       $ ansible all -m file -a "path=test.txt state=touch"
-
+this is to create a file in your remote servers "all" means it is going to create a file in all the servers "-m file" is to show that your are using a file module "-a" is for the arguments "path=test.txt" means that it is creating a test.txt file in the pwd of the user and the state is touch because the linux command to create a file is touch. if you wanted to create a directory it would be directory 
 **Group level variables** 
 ```
     **Group variables:**

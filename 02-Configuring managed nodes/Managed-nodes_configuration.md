@@ -88,7 +88,9 @@ group level variables are if you have common variables for your group
 - Host variables have the highest priorities. 
 - If variables are defined at a host level, then those variables will have precedence over variables that are defined at a group level.
 
-## **b) Password-less Authentication (Using SSH_Keys)**
+## **b) Password-less Authentication (Using SSH_Keys)** 
+
+have to generate a key when youre in the home of ansible(the default user) 
 
 - Generate ssh-keys using ssh-keygen command from ansible user in the control machine.
 

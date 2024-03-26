@@ -100,7 +100,8 @@ once you have generated key have to send the public key to the remote users
 - Copy ssh public key using ssh-copy-id <hostname> from /home/ansible/.ssh/ location.
 
       $ ssh-copy-id <hostname/ip>
-
+exp. ssh-copy-id 172.31.18.87 
+youll still need a password to be able to transfer the key
 - Now login to remote server without providing password with the following command:
 
       $ ssh user_name@hostname

@@ -9,6 +9,7 @@ then open the ssh configuration file in vscode then go to your users/ssh/config 
 
 Host (name of host)    
      HostName (IP of host) 
+     
      User (username of host) 
      IdentityFIle (the key of the host ec2 instance) 
 

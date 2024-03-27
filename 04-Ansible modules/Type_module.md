@@ -71,7 +71,7 @@ a) From ansible control node to remote node \
  - Used to create user accounts.
  - Create a password encryption
  - Generate the password from your local environment
-
+first need to create a password that is encrypted for the user 
  **$ openssl passwd -crypt <desired_password>**
 
  **$ ansible db -m user -a "name=Peter password=wiyiMQbLhCRUY shell=/bin/bash" -b**

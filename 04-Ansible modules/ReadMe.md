@@ -32,7 +32,9 @@
 
 - For instance, if you wanted to run a tail command to output the latest log messages from Nginx’s error log on a server named server1 from inventory, you would need to include the --become option as follows:
 
- **$ ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become**
+ **$ ansible server1 -i inventory -a "tail /var/log/nginx/error.log" --become** 
+
+ "-a" option is for arguments "-b or --become" is for priviledge escalation/becoming a sudo user "-k" is for ssh password "-m" is for modules and "-i" is for inventory. capital "-K" is for sudo password for the user
 
 - This would be the equivalent of running a sudo tail /var/log/nginx/error.log command on the remote host, using the current local system user or the remote user set up within your inventory file.
 

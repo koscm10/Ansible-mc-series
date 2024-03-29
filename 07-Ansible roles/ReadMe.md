@@ -71,4 +71,4 @@ meta/main.yml - metadata for the role, including role dependencies.
 - At the tasks level with include_role: You can reuse roles dynamically anywhere in the tasks section of a play using include_role.
 
 - At the tasks level with import_role: You can reuse roles statically anywhere in the tasks section of a play using import_role
-
+If your roles have dynamic content(vars that can change) then you use include roles h/e if your role doesnt have any dynamic variables ie. its static then you use import roles
